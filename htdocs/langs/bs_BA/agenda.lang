@@ -1,0 +1,175 @@
+# dolibarr language file - Source file is en_US - agenda
+IdAgenda=ID događaja
+Actions=Događaji
+Agenda=Agenda
+TMenuAgenda=Agenda
+Agendas=Agende
+LocalAgenda=Lokalni kalendar
+<<<<<<< HEAD
+ActionsOwnedBy=Event owned by
+=======
+ActionsOwnedBy=Događaj u vlasništvu
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git
+ActionsOwnedByShort=Vlasnik
+AffectedTo=Dodijeljeno korisniku
+Event=Događaj
+Events=Događaji
+EventsNb=Broj događaja
+ListOfActions=Lista događaja
+EventReports=Event reports
+Location=Lokacija
+ToUserOfGroup=Bilo koji korisnik u grupi
+EventOnFullDay=Događaj za cijeli dan(e)
+MenuToDoActions=Svi nepotpuni događaji
+MenuDoneActions=Sve završeni događaji
+MenuToDoMyActions=Moji nepotpuni događaji
+MenuDoneMyActions=Moji završeni događaji
+ListOfEvents=Spisak događaja (lokalni kalendar)
+ActionsAskedBy=Događaje izvijestio/la
+ActionsToDoBy=Događaji dodijeljeni korisniku
+ActionsDoneBy=Događaji završeni od strane korisnika
+ActionAssignedTo=Događaj dodijeljen
+ViewCal=Mjesečni pregled
+ViewDay=Dnevni pregled
+ViewWeek=Sedmični pregled
+ViewPerUser=Pregled po korisniku
+ViewPerType=Pregled po vrsti
+AutoActions= Automatsko popunjavanje
+AgendaAutoActionDesc= Ovdje definirajte događaje za koje želite da dolibarr automatski napravi događaj u kalendaru. Ako ništa nije obilježeno, samo ručno unesene akcije će biti uključene i vidljive u kalendaru. Automatsko praćenje biznis akcija urađenih na objektima (validacija, promjena statusa) neće biti spremljene.
+AgendaSetupOtherDesc= Ova stranica pruža mogućnosti izvoza svojih dolibarr događaja u eksterni kalendar (Thunderbird, Google Calendar, ...)
+AgendaExtSitesDesc=Ova stranica omogućava definisanje eksternih izvora kalendara da vidite svoje događaje u dolibarr agendi.
+ActionsEvents=Događaji za koje će dolibarr stvoriti akciju u dnevni red automatski
+EventRemindersByEmailNotEnabled=Event reminders by email was not enabled into Agenda module setup.
+##### Agenda event labels #####
+NewCompanyTodolibarr=Kreirana treća strana %s
+<<<<<<< HEAD
+ContractValidatedIndolibarr=Contract %s validated
+PropalClosedSignedIndolibarr=Proposal %s signed
+PropalClosedRefusedIndolibarr=Proposal %s refused
+=======
+ContractValidatedIndolibarr=Ugovor %s potvrđen
+PropalClosedSignedIndolibarr=Prijedlog %s potpisan
+PropalClosedRefusedIndolibarr=Prijedlog %s odbijen
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git
+PropalValidatedIndolibarr=Prijedlog %s potvrđen
+PropalClassifiedBilledIndolibarr=Prijedlog %s klasificiran kao fakturisan
+InvoiceValidatedIndolibarr=Faktura %s potvrđena
+InvoiceValidatedIndolibarrFromPos=Račun %s odobren na POSu
+InvoiceBackToDraftIndolibarr=Faktura %s vraćena u status izrade
+InvoiceDeletedolibarr=Faktura %s obrisana
+InvoicePaidIndolibarr=Faktura %s promijenjena u status plaćeno
+InvoiceCanceledIndolibarr=Faktura %s otkazana
+MemberValidatedIndolibarr=Član %s potvrđen
+MemberModifiedIndolibarr=Member %s modified
+<<<<<<< HEAD
+MemberResiliatedIndolibarr=Member %s terminated
+MemberDeletedIndolibarr=Member %s deleted
+MemberSubscriptionAddedIndolibarr=Subscription %s for member %s added
+MemberSubscriptionModifiedIndolibarr=Subscription %s for member %s modified
+MemberSubscriptionDeletedIndolibarr=Subscription %s for member %s deleted
+ShipmentValidatedIndolibarr=Shipment %s validated
+=======
+MemberResiliatedIndolibarr=Član %s ugašen
+MemberDeletedIndolibarr=Član%s obrisan
+MemberSubscriptionAddedIndolibarr=Subscription %s for member %s added
+MemberSubscriptionModifiedIndolibarr=Subscription %s for member %s modified
+MemberSubscriptionDeletedIndolibarr=Subscription %s for member %s deleted
+ShipmentValidatedIndolibarr=Pošiljka %s odobrena
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git
+ShipmentClassifyClosedIndolibarr=Shipment %s classified billed
+ShipmentUnClassifyCloseddIndolibarr=Shipment %s classified reopened
+ShipmentDeletedIndolibarr=Shipment %s deleted
+OrderCreatedIndolibarr=Order %s created
+OrderValidatedIndolibarr=Narudžba %s potvrđena
+OrderDeliveredIndolibarr=Narudžba %s klasificirana kao isporučena
+OrderCanceledIndolibarr=Narudžba %s otkazana
+OrderBilledIndolibarr=Narudžba %s klasificirana kao fakturisana
+OrderApprovedIndolibarr=Narudžba %s odobrena
+OrderRefusedIndolibarr=Narudžba %s odbijena
+OrderBackToDraftIndolibarr=NArudžbu %s vratiti u status izrade
+ProposalSentByEMail=Poslovni prijedlog %s poslan putem e-maila
+ContractSentByEMail=Contract %s sent by EMail
+OrderSentByEMail=Narudžba za kupca %s poslana putem e-maila
+InvoiceSentByEMail=Fakture za kupca %s poslana putem e-maila
+SupplierOrderSentByEMail=Narudžba za dobavljača %s poslan putem e-maila
+SupplierInvoiceSentByEMail=Predračun dobavljača %s poslan putem e-maila
+ShippingSentByEMail=Pošiljka%s poslana emailom
+<<<<<<< HEAD
+ShippingValidated= Shipment %s validated
+=======
+ShippingValidated= Pošiljka %s odobrena
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git
+InterventionSentByEMail=Intervencija %s poslana putem e-maila
+ProposalDeleted=Ponuda obrisana
+OrderDeleted=Narudžba obrisana
+InvoiceDeleted=Faktura obrisana
+PRODUCT_CREATEIndolibarr=Product %s created
+PRODUCT_MODIFYIndolibarr=Product %s modified
+PRODUCT_DELETEIndolibarr=Product %s deleted
+EXPENSE_REPORT_CREATEIndolibarr=Expense report %s created
+EXPENSE_REPORT_VALIDATEIndolibarr=Expense report %s validated
+EXPENSE_REPORT_APPROVEIndolibarr=Expense report %s approved
+EXPENSE_REPORT_DELETEIndolibarr=Expense report %s deleted
+EXPENSE_REPORT_REFUSEDIndolibarr=Expense report %s refused
+PROJECT_CREATEIndolibarr=Project %s created
+PROJECT_MODIFYIndolibarr=Project %s modified
+PROJECT_DELETEIndolibarr=Project %s deleted
+##### End agenda events #####
+AgendaModelModule=Document templates for event
+DateActionStart=Datum početka
+DateActionEnd=Datum završetka
+AgendaUrlOptions1=Također možete dodati sljedeće parametre za filtriranje prikazanog:
+AgendaUrlOptions3=<b>logina=%s</b> to restrict output to actions owned by a user <b>%s</b>.
+AgendaUrlOptionsNotAdmin=<b>logina=!%s</b> to restrict output to actions not owned by user <b>%s</b>.
+AgendaUrlOptions4=<b>logint=%s</b> to restrict output to actions assigned to user <b>%s</b> (owner and others).
+AgendaUrlOptionsProject=<b>project=__PROJECT_ID__</b> to restrict output to actions linked to project <b>__PROJECT_ID__</b>.
+AgendaUrlOptionsNotAutoEvent=<b>notactiontype=systemauto</b> to exclude automatic event.
+AgendaShowBirthdayEvents=Pokaži rođendane kontakata
+AgendaHideBirthdayEvents=Sakrij rođendane kontakata
+Busy=Zauzet
+ExportDataset_event1=Lista događaja u agendi
+DefaultWorkingDays=Postavljeni period radnih dana u sedmici (naprimjer: 1-5, 1-6)
+DefaultWorkingHours=Postavljeni radni sati u danu (naprimjer: 9-18)
+# External Sites ical
+ExportCal=Export kalendara
+ExtSites=Import eksternih kalendara
+ExtSitesEnableThisTool=Prikazuje vanjske kalendare (definirane gobalnim postavkama) u agendi. Ne utječe na vanjske kalendare koje definiraju korisnici.
+ExtSitesNbOfAgenda=Broj kalendara
+<<<<<<< HEAD
+AgendaExtNb=Calendar no. %s
+=======
+AgendaExtNb=Kalendar br. %s
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git
+ExtSiteUrlAgenda=URL za pristup .ical fajla
+ExtSiteNoLabel=Nema opisa
+<<<<<<< HEAD
+VisibleTimeRange=Visible time range
+VisibleDaysRange=Visible days range
+AddEvent=Napravi događaj
+MyAvailability=Moja dostupnost
+ActionType=Vrsta događaja
+DateActionBegin=Start event date
+CloneAction=Kloniraj događaj
+ConfirmCloneEvent=Are you sure you want to clone the event <b>%s</b>?
+RepeatEvent=Repeat event
+EveryWeek=Svake sedmice
+EveryMonth=Svakog mjeseca
+DayOfMonth=Day of month
+DayOfWeek=Day of week
+DateStartPlusOne=Date start + 1 hour
+=======
+VisibleTimeRange=Vidljivi raspon vremena
+VisibleDaysRange=Vidljivi raspon dana
+AddEvent=Napravi događaj
+MyAvailability=Moja dostupnost
+ActionType=Vrsta događaja
+DateActionBegin=Početni datum događaja
+CloneAction=Kloniraj događaj
+ConfirmCloneEvent=Jeste li sigurni da želite duplirati događaj <b>%s</b>?
+RepeatEvent=Ponovi događaj
+EveryWeek=Svake sedmice
+EveryMonth=Svakog mjeseca
+DayOfMonth=Dan u mjesecu
+DayOfWeek=Dan u sedmici
+DateStartPlusOne=Datum početka + 1 sat
+>>>>>>> branch '7.0' of git@github.com:dolibarr/dolibarr.git

@@ -1,0 +1,26 @@
+# dolibarr language file - Source file is en_US - help
+CommunitySupport=Foorumi / Wiki tukea
+EMailSupport=Sähköpostit tukea
+RemoteControlSupport=Online reaaliajassa / etätuki
+OtherSupport=Muut tuet
+ToSeeListOfAvailableRessources=Voit ottaa yhteyttä / nähdä käytettävissä olevat varat:
+HelpCenter=Ohjekeskukseen
+dolibarrHelpCenter=dolibarr apua ja tukea keskus
+ToGoBackTodolibarr=Muuten napsauta <a href="%s">tästä käyttää dolibarr</a>
+TypeOfSupport=Tuen lähde
+TypeSupportCommunauty=Yhteisössä (vapaa)
+TypeSupportCommercial=Kaupalliset
+TypeOfHelp=Tyyppi
+NeedHelpCenter=Tarvitsetko apua tai tukea?
+Efficiency=Tehokkuus
+TypeHelpOnly=Ohje vain
+TypeHelpDev=Ohje + kehittämisen
+TypeHelpDevForm=Ohje + Development + Formation
+ToGetHelpGoOnSparkAngels1=Jotkin yritykset voivat tarjota nopea (joskus välittömästi) ja tehokkaampaa online tukea ottamalla tietokoneen. Tällainen avustushenkilöstö <b>löytyy %s</b> www-sivusto:
+ToGetHelpGoOnSparkAngels3=Voit myös mennä luettelo kaikista käytettävissä valmentajia varten dolibarr, tästä klikkaamalla painiketta
+ToGetHelpGoOnSparkAngels2=Joskus ei ole yhtiön käytettävissä tällä hetkellä teet haun, niin mielestäni muuttaa suodattimen etsiä "kaikkien saatavilla". Voit lähettää lisää pyyntöjä.
+BackToHelpCenter=Muussa tapauksessa, klikkaa tästä ja mennä <a href="%s">takaisin ohjekeskukseen kotisivu.</a>
+LinkToGoldMember=Voit soittaa yksi valmentaja valittua on dolibarr for your language ( %s) napsauttamalla hänen Widget (status ja enimmäishinta päivittyvät automaattisesti):
+PossibleLanguages=Tuetut kielet
+SubscribeToFoundation=Auta dolibarr projektia, tilaa 
+SeeOfficalSupport=Virallinen dolibarr tuki omalla kielellä: <br><b><a href="%s" target="_blank">%s</a></b>

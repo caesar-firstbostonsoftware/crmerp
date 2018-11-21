@@ -1,0 +1,8 @@
+README (English)
+--------------------------------
+
+This directory contains samples of code to use dolibarr business classes to build
+external interfaces that need to read/update data from/into dolibarr.
+
+You can also have a look at the dolibarr doxygen doc that describes all files and classes:
+http://www.dolibarr.org/html_doxygen/index.html
