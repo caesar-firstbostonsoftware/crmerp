@@ -1,8 +1,6 @@
-# dolibarr ERP & CRM
+# CebuCCTV ERP & CRM
 
-![Build status](https://img.shields.io/travis/dolibarr/dolibarr/8.0.svg) ![Downloads per day](https://img.shields.io/sourceforge/dm/dolibarr.svg)
-
-dolibarr ERP & CRM is a modern software package to manage your organization's activity (contacts, suppliers, invoices, orders, stocks, agenda…).
+CebuCCTV ERP & CRM is a modern software package to manage your organization's activity (contacts, suppliers, invoices, orders, stocks, agenda…).
 
 It's an Open Source Software (written in PHP language) designed for small, medium or large companies, foundations and freelances.
 
@@ -11,85 +9,6 @@ You can freely use, study, modify or distribute it according to its Free Softwar
 You can use it as a standalone application or as a web application to be able to access it from the Internet or a LAN.
 
 ![ScreenShot](https://www.dolibarr.org/images/dolibarr_screenshot1_640x400.png)
-
-
-## LICENSE
-
-dolibarr is released under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version (GPL-3+).
-
-See the [COPYING](https://github.com/dolibarr/dolibarr/blob/develop/COPYING) file for a full copy of the license.
-
-Other licenses apply for some included dependencies. See [COPYRIGHT](https://github.com/dolibarr/dolibarr/blob/develop/COPYRIGHT) for a full list.
-
-
-## INSTALLING
-
-### Download
-
-Releases can be downloaded from [official website](https://www.dolibarr.org/).
-
-### Install from composer
-
-If you do not already have Composer installed, you may do so by following the instructions at [getcomposer.org](https://getcomposer.org/). On Linux and macOS, you may run the following commands:
-
-```bash
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-```
-
-On Windows, you can download and run https://getcomposer.org/Composer-Setup.exe
-
-You can then create a new project
-
-```bash
-composer create-project dolibarr/dolibarr erp
-```
-
-### Simple setup
-
-If you have low technical skills and you're looking to install dolibarr ERP/CRM in just a few clicks, you can use one of the packaged versions:
-
-- DoliWamp for Windows
-- DoliDeb for Debian or Ubuntu
-- DoliRpm for Redhat, Fedora, OpenSuse, Mandriva or Mageia
-
-### Advanced setup
-
-You can use a Web server and a supported database (MariaDB, MySQL or PostgreSQL) to install the standard version.
-
-- Uncompress the downloaded archive
-- Copy the "dolibarr" directory and all its files inside your web server root or anywhere you'd like and set up your web server to use "*dolibarr/htdocs*" as root for a new web server virtual host (second choice need to be server administrator)
-- Create an empty `htdocs/conf/conf.php` file and set permissions for your web server user (*write* permissions will be removed once install is finished)
-- From your browser, go to the dolibarr "install/" page
-
-    The URL will depends on choices made in the first step:
-
-        http://localhost/dolibarr/htdocs/install/
-        
-    or
-    
-        http://localhost/dolibarr/install/
-        
-    or
-    
-    	http://yourdolibarrvirtualhost/install/
-   
-- Follow the installer instructions
-
-
-## UPGRADING
-
-- Overwrite all old files from 'dolibarr' directory with files provided into the new version's package.
-- At first next access, dolibarr will redirect your to the "install/" page to follow the upgrade process.
-  If an `install.lock` file exists to lock any other upgrade process, the application will ask you to remove the file manually (you should find the `install.lock` file into the directory used to store generated and uploaded documents, in most cases, it is the directory called "*documents*").
-
-*Note: migration process can be safely done multiple times by calling the `/install/index.php` page*
-
-
-## WHAT'S NEW
-
-See the [ChangeLog](https://github.com/dolibarr/dolibarr/blob/develop/ChangeLog) file.
-
 
 ## FEATURES
 
@@ -143,7 +62,7 @@ See the [ChangeLog](https://github.com/dolibarr/dolibarr/blob/develop/ChangeLog)
 - Multi-company by adding of an external module.
 - Very user friendly and easy to use.
 - Highly customizable: enable only the modules you need, add user personalized fields, choose your skin, several menu managers (can be used by internal users as a back-office with a particular menu, or by external users as a front-office with another one)
-- Works with PHP 5.3+ and MariaDB 5.0.3+, MySQL 5.0.3+ or PostgreSQL 8.1.4+ (See requirements on the [Wiki](https://wiki.dolibarr.org/index.php/Prerequisite))
+- Works with PHP 5.3+ and MariaDB 5.0.3+, MySQL 5.0.3+ or PostgreSQL 8.1.4+
 - Compatible with all Cloud solutions that match MySQL, PHP or PostgreSQL prerequisites.
 - APIs.
 - An easy to understand, maintain and develop code (PHP with no heavy framework; trigger and hook architecture)
@@ -155,53 +74,3 @@ See the [ChangeLog](https://github.com/dolibarr/dolibarr/blob/develop/ChangeLog)
     - Argentina invoice numbering using A,B,C... 
     - Compatible with [European directives](http://europa.eu/legislation_summaries/taxation/l31057_en.htm) (2006/112/CE ... 2010/45/UE)
 - PDF or ODT generation for invoice, proposals, orders...
-- …
-
-### Extending
-
-dolibarr can be extended with a lot of other external application or modules from third party developers available at the [DoliStore](https://www.dolistore.com).
-
-
-## WHAT dolibarr CAN'T DO YET
-
-These are features that dolibarr does **not** yet fully support:
-
-- Tasks dependencies in projects
-- Payroll module
-- No native embedded Webmail
-- dolibarr can't do coffee (yet)
-
-
-## DOCUMENTATION
-
-Administrator, user, developer and translator's documentations are available along with other community resources on the [Wiki](https://wiki.dolibarr.org).
-
-
-## CONTRIBUTING
-
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/dolibarr/dolibarr/blob/develop/.github/CONTRIBUTING.md)].
-<a href="https://github.com/dolibarr/dolibarr/graphs/contributors"><img src="https://opencollective.com/dolibarr/contributors.svg?width=890&button=false" /></a>
-
-
-## CREDITS
-
-dolibarr is the work of many contributors over the years and uses some fine libraries.
-
-See [COPYRIGHT](https://github.com/dolibarr/dolibarr/blob/develop/COPYRIGHT) file.
-
-
-## NEWS AND SOCIAL NETWORKS
-
-Follow dolibarr project on:
-
-- [Facebook](https://www.facebook.com/dolibarr)
-- [Google+](https://plus.google.com/+dolibarrOrg)
-- [Twitter](https://www.twitter.com/dolibarr)
-- [LinkedIn](https://www.linkedin.com/company/association-dolibarr)
-- [YouTube](https://www.youtube.com/user/dolibarrERPCRM)
-- [GitHub](https://github.com/dolibarr/dolibarr)
-
-
-### Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here. 🙏 [[Become a sponsor/backer](https://opencollective.com/dolibarr#backer)]
